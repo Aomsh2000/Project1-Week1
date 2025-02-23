@@ -1,0 +1,94 @@
+@import "tailwindcss";
+body{
+    font-family: 'DIN[T]', sans-serif;
+    font-weight:400;
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+}
+.language-link{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+nav{
+    border-bottom: 0.5px #E5E7EB
+    solid;
+}
+a{
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+a:hover{
+    color: #34D399;
+
+}
+
+
+main{
+    background-color: white;
+    
+}
+
+.step-indicator{
+    background-color: #34D399;
+}
+
+.line{
+    background-image: linear-gradient(to right, #34D399 , rgb(225, 225, 225), rgb(225, 225, 225), rgb(225, 225, 225),rgb(225, 225, 225),rgb(225, 225, 225),rgb(225, 225, 225));
+    height: 2px;
+    width: 100%;
+}
+label{
+    color: gray;
+    font-weight: 500;
+}
+input{
+    border: 1px solid #D1D5DB; /* Light gray border */
+    border-radius: 0.375rem; /* Rounded corners */
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+input:focus{
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.25); /* Focus shadow with color #34D399 */
+}
+select{
+    border: 1px solid #D1D5DB; /* Light gray border */
+    border-radius: 0.375rem; /* Rounded corners */
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+select:focus{
+    box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.25); /* Focus shadow with color #34D399 */
+
+}
+
+.endLine{
+    background-color: rgb(225, 225, 225);
+    height: 2px;
+    width: 100%;
+}
+#submitButton{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #34D399;
+    width: 100%;
+    transition: ease-in 0.3s background-color;
+}
+#submitButton:hover{
+    background-color: #2D9E75;
+}
+footer{
+    margin-top: 6rem;
+    color: #34D399;
+}
+footer div{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
